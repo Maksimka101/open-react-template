@@ -7,9 +7,12 @@ export default function GetTheApp() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h2 mb-4 pb-16" data-aos="fade-up">
+            <h1 className="h2 mb-4">
               Start using it right now!
             </h1>
+            <p className="text-xl text-gray-400">
+              Download and experience seamless task management and communication
+            </p>
 
           </div>
 

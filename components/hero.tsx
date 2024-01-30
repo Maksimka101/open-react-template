@@ -1,5 +1,6 @@
 import VideoThumb from '@/public/images/hero.jpg'
 import ModalVideo from '@/components/modal-video'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -47,14 +48,19 @@ export default function Hero() {
             </div>
           </div>
 
-          <ModalVideo
+          <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
+            <Image className='rounded-lg' src={VideoThumb} width={1024} height={576} alt="Teamin home screen" />
+          </div>
+
+          {/* TODO: Use this widget to show a demo video */}
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
-            videoHeight={1080} />
+            videoHeight={1080} /> */}
 
         </div>
 

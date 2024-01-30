@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      <Zigzag />
+      {/* <Zigzag /> */}
       {/* <Testimonials /> */}
       {/* <Newsletter /> */}
       <GetTheApp />
