@@ -49,7 +49,7 @@ export default function Hero() {
           </div>
 
           <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-            <Image className='rounded-lg' src={VideoThumb} width={1024} height={576} alt="Teamin home screen" />
+            <img className='rounded-lg' src="https://teamin.pro/images/hero.jpeg" width={1024} height={576} alt="Teamin home screen" />
           </div>
 
           {/* TODO: Use this widget to show a demo video */}
